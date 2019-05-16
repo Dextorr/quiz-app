@@ -1,8 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <h1>HOME</h1>
+    <main>
+      <h1>HOME</h1>
+      <div>
+        <Link to="/quiz">
+          <h3>Start the Quiz</h3>
+        </Link>
+      </div>
+    </main>
   )
 }
 
